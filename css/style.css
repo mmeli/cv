@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+  }
+  .menu {
+    float: left;
+    width: 20%;
+  }
+  .menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+    font-family: cursive;
+  }
+  .menuitem1 {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+    font-family: cursive;
+  }
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  .right {
+    background-color:#a3c79f;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+  }
+  .col2 {
+    width: 40%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+  
+  .col1 {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+  #cv {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #cv td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #cv tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #cv tr:hover {background-color: #ddd;}
+  
+  #cv th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  div.pic {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+@font-face{
+    font-family: Ruffle;
+    src:url(../img/Ruffle.ttf);
+} 
+@font-face{
+    font-family: Bateler; 
+    src:url(../img/Bateler.jpg);
+}
+    
+@font-face{
+    font-family: Garineldo; 
+    src:url(../img/Garineldo.otf);
+}
+@font-face{  
+    font-family: burntilldead_billyforges;  
+    src:url(../img/Billy.otf);
+}
+
+#font1{  
+  font-family: Garineldo;  
+  font-size: 40px;  
+  /* text-decoration: underline; */
+  color: black;
+}
+.font1{  
+  font-family: Garineldo;  
+  font-size: 30px;  
+  text-decoration: underline; 
+  color: black;
+}
+  
+.font2{ 
+  font-family: Bateler; 
+  font-size: 30px;
+}
+.font3{ 
+  font-family: burntilldead_billyforges; 
+  font-size: 30px;
+}
+.font4{ 
+  font-family: Ruffle; 
+  font-size: 30px;
+}
